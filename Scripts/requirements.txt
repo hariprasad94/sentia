@@ -1,0 +1,5 @@
+flask
+azure
+azure-mgmt-datalake-store
+azure-datalake-store
+azure-keyvault

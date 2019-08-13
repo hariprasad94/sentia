@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+		"location": {
+            "value": "westeurope"
+        },
+        "networkInterfaceName": {
+            "value": ""
+        },
+        "networkSecurityGroupName": {
+            "value": ""
+        },
+        "networkSecurityGroupRules": {
+            "value": ""
+        },
+        "subnetName": {
+            "value": ""
+        },
+        "virtualNetworkName": {
+            "value": ""
+        },
+        "addressPrefixes": {
+            "value": ""
+        },
+		"subnets": {
+            "value": ""
+        },
+		"publicIpAddressName": {
+            "value": ""
+        },
+		"publicIpAddressType": {
+            "value": ""
+        },
+		"publicIpAddressSku": {
+            "value": ""
+        },
+		"virtualMachineName": {
+            "value": ""
+        },
+		"virtualMachineRG": {
+            "value": ""
+        },
+		"osDiskType": {
+            "value": ""
+        },
+		"virtualMachineSize": {
+            "value": ""
+        },
+		"adminUsername": {
+            "value": ""
+        },
+		"adminPassword": {
+            "value": ""
+        },
+		"loadBalancerId": {
+            "value": ""
+        },
+		"backendPoolId": {
+            "value": ""
+        }
+		"backendPoolName": {
+            "value": ""
+        },
+		"loadBalancerRG": {
+            "value": ""
+        }
+    }
+}

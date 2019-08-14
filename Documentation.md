@@ -86,11 +86,5 @@ Using ARM templates and best practices, create the following:
     Last but not least, a PowerShell script has been created to deploy the ARM templates. It is possible to deploy multiple ARM templates at the same time. 
     
     The script uses Service Principal for the deployment, which is considered as standard way of deployment.
-
-
-
-
-
-
-
-
+	
+Kindly note that we are currently using Azure DevOps pipelines for Azure infrastructure deployment (IaC) in an automated fashion. As I was not sure if we use Azure DevOps at Sentia, I did not create the pipelines.
